@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #464E67;
+}
+table{
+    width: 100%;
+    text-align: center;
+    background: #3891a6;
+    color: #ffffff;
+    border-color: #464E67;
+}
+tr {
+   height:100%;
+   text-align:center;
+   margin:0;
+   padding:0;
+}
+
+td {
+   padding:0px;
+   height: 100%;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    text-align: center;
+}
+.topper{
+    height:min-content;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+}
+.download{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    background-color: #ffbc42;
+    cursor: pointer;
+    border: 0;
+}

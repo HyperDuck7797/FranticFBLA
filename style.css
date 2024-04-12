@@ -1,43 +1,58 @@
-body{
+html,body{
     margin: 0;
     padding: 0;
     background: #464E67;
-}
-table{
-    width: 100%;
-    text-align: center;
-    background: #3891a6;
-    color: #ffffff;
-    border-color: #464E67;
-}
-tr {
-   height:100%;
-   text-align:center;
-   margin:0;
-   padding:0;
-}
-
-td {
-   padding:0px;
-   height: 100%;
+    overflow: visible;
 }
 a{
     text-decoration: none;
     color: blue;
     text-align: center;
 }
-.topper{
-    height:min-content;
-    padding: 0;
-    position: fixed;
-    width: 100%;
+.layer{
+    padding-top: 50px;
 }
-.download{
-    margin:0;
-    padding:0;
-    height:100%;
-    width:100%;
-    background-color: #ffbc42;
+.topper{
+    display:flex;
+    justify-content: center;
+    column-gap: 10px;
+    height:fit-content;
+    background: rgba(0,0,0,.75);
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+}
+.menu{
+    vertical-align: middle;
+    width: 10%;
+    background: none;
+    color: rgba(202, 202, 202, 0.75);
     cursor: pointer;
     border: 0;
+}
+.bg{
+    background-color: rgb(0, 0, 114);
+    background-image: url(images/logo.png);
+    background-position: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    display: table;
+    box-sizing: border-box;
+}
+.copyright{
+    justify-content: center;
+    display: flex;
+    height: fit-content;
+    width: 100vw;
+    padding: 10px;
+    color: white;
+    background: rgb(0,0,0);
+}
+.btn{
+    cursor: pointer;
+    background-color: rgb(0, 0, 151);
+    color: #ffffff;
+    padding: 15px;
 }
